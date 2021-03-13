@@ -1,0 +1,18 @@
+.timer {
+  padding-left: 0;
+
+  font-size: 26px;
+  color: aliceblue;
+  height: 70px;
+}
+
+.field {
+  display: inline-block;
+  text-align: center;
+  outline: 1px solid black;
+  margin-right: 20px;
+  height: 100%;
+  width: 83px;
+  padding: 5px;
+  background-color: black;
+}
