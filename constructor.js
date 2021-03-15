@@ -13,7 +13,6 @@ class CountdownTimer {
         // this.countRestTime();
     }
     countRestTime() {
-
         this.intervalId = setInterval(() => {
             this.currentTime = Date.now();
             this.restTime = this.targetTime - this.currentTime;
@@ -54,8 +53,6 @@ class CountdownTimer {
                 this.refs.secs.textContent = secs;
         };
 }
-
-
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
